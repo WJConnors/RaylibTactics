@@ -1,0 +1,3 @@
+Grid class storing cell objects
+Cell objects can store gridObjects
+Is cell class necessary?
