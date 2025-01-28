@@ -7,8 +7,7 @@
 class Cell
 {
 public:
-    Cell();
-    Cell(GridObject* go);
+    Cell(GridObject* go = nullptr);
     void SetGridObject(GridObject* go) {gridObject = go;}
     GridObject* GetGridObject() {return gridObject;}
 private:
